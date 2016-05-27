@@ -28,6 +28,7 @@ end
 ```
 
 
+```
 class Note
     attr_accessor :id, :title, :note, :time_created
      @@set_note_id = 0
@@ -39,6 +40,7 @@ class Note
     self.id = @@set_note_id += 1
   end
 end
+```
 
 Having a two sided relationship where a note "Belongs To" a user and a user "Has Many" notes can easily be achieved in just one method using `self` in one method.
 
