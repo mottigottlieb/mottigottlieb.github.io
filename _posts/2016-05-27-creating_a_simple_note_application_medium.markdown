@@ -64,9 +64,10 @@ But the “Aha!” didnt end there, as i got further i noticed that the power of
     sql = "INSERT INTO students (name, grade) VALUES (?, ?)"
     DB[:conn].execute(sql, self.name, self.grade)
   end
-  
-```
-to knowing my location while debugging in a repl:
+```  
+
+To knowing my location while debugging in a repl:
+
 ```
 [1] pry(main)> self
 => main
