@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Standard Address Book VS. Index Card Adsress Book "
-date:   2016-05-29 19:46:55 +0000
+title:  "Standard Address Book VS. Index Card Address Book "
+date:   2016-05-29 15:46:55 -0400
 ---
 
 
