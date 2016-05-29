@@ -52,9 +52,9 @@ Class user
 end
 ```
 
-here a note can “Belong To” to a user by assigning user's attribute of a note object  to the instance #add_note is operating on, while “Has Many” notes was accomplished by shoveling a Note object  passed in as the method's argument.
+here a note can “Belong To” to a user by assigning user's attribute of a note object to the instance #add_note is operating on, while “Has Many” notes was accomplished by shoveling a Note object passed into the method's argument.
 
-But the “Aha!” didnt end there, as i got further i noticed that the power of self was way beyond object relationships, it can be used from saving data in ORM:
+Yet, the “Aha!” wasn't over, the further i got I've learned how self was way beyond object relationships, it can be used from saving data with Object-relational mapping:
 ```
 
   def save
@@ -70,6 +70,5 @@ To knowing my location while debugging in a repl:
 => main
 ```
 
- As i continue my journey to becoming a full stack web developer i’m sure i’ll meet many more uses of `self` 
- Where i'll truly see how every instance is uniquely an object in itself.
+As my journey to a full stack web developer continues  i  look forward to many more uses of `self` Where I'll truly see how every instance is uniquely an object in itself.
 
