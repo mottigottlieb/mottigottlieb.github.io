@@ -56,7 +56,7 @@ here a note can “Belong To” to a user by assigning user's attribute of a not
 
 Yet, the “Aha!” wasn't over, the further i got I've learned how self was way beyond object relationships, it can be used from saving data with Object-relational mapping:
 
-```sql
+```ruby
  def save
     sql = "INSERT INTO students (name, grade) VALUES (?, ?)"
     DB[:conn].execute(sql, self.name, self.grade)
