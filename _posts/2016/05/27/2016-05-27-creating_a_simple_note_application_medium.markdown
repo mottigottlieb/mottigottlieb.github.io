@@ -12,7 +12,7 @@ However, the "Aha!" Moment for me was at a later point in the curriculum, when s
 
 In an example of a simple note application consisting of Note and User class:
 
-```
+```ruby
 class User
     attr_accessor :id, :username, :notes
     @@set_user_id = 0
@@ -27,7 +27,7 @@ end
 ```
 
 
-```
+```ruby
 class Note
     attr_accessor :id, :title, :note, :time_created
      @@set_note_id = 0
@@ -42,7 +42,7 @@ end
 ```
 Having a two-sided relationship where a note “Belongs To” a user and a user “Has-Many” notes can easily be achieved in just one method using self in one method. 
 
-```
+```ruby
 Class user
   #most class ommited...
   def add_note(note)
@@ -56,7 +56,7 @@ here a note can “Belong To” to a user by assigning user's attribute of a not
 
 Yet, the “Aha!” wasn't over, the further i got I've learned how self was way beyond object relationships, it can be used from saving data with Object-relational mapping:
 
-```
+```sql
  def save
     sql = "INSERT INTO students (name, grade) VALUES (?, ?)"
     DB[:conn].execute(sql, self.name, self.grade)
@@ -65,7 +65,7 @@ Yet, the “Aha!” wasn't over, the further i got I've learned how self was way
 
 To knowing my location while debugging in a repl:
 
-```
+```ruby
 [1] pry(main)> self
 => main
 ```
