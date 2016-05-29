@@ -4,7 +4,7 @@ title:  "Recognizing the power of `self`"
 date:   2016-05-27 10:57:57 -0400
 ---
 
-
+Test
 At the early stage of Object Oriented Ruby I was introduced to the idea of `self`.
 
 At first, the ability to invoke 'self ' showed me what “everything in ruby is an object” really means.
