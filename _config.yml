@@ -1,0 +1,21 @@
+# Site settings
+title: Learning to Code
+header-img: img/home-bg.png
+email: mottigottlieb@gmail.com
+copyright_name: mottigottlieb
+description: > # this means to ignore newlines until "baseurl:"
+  My journey to a Full Stack Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  mottigottlieb
+learn_profile: mottigottlieb
+email_username: mottigottlieb@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
