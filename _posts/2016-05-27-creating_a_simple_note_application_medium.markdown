@@ -5,6 +5,8 @@ date:   2016-05-27 10:57:57 -0400
 ---
 
 
+Testing 2
+
 At the early stage of Object Oriented Ruby I was introduced to the idea of `self`.
 
 At first, the ability to invoke 'self ' showed me what “everything in Ruby is an object” really means.
