@@ -4,12 +4,11 @@ title:  "Recognizing the power of `self`"
 date:   2016-05-27 10:57:57 -0400
 ---
 
-Test
-At the early stage of Object Oriented Ruby I was introduced to the idea of `self`.
+At the early stage of Object-Oriented Ruby I was introduced to the idea of self.
 
-At first, the ability to invoke 'self ' showed me what “everything in ruby is an object” really means.
+At first, the ability to invoke 'self ' showed me what “everything in Ruby is an object” really means.
 
-But the "Aha!" Moment for me was at a later point in the curriculum, when `self` was used to collaborate classes.
+However, the "Aha!" Moment for me was at a later point in the curriculum, when self was used to collaborate classes.
 
 In an example of a simple note application consisting of Note and User class:
 
