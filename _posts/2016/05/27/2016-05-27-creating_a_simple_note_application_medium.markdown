@@ -40,11 +40,11 @@ class Note
   end
 end
 ```
-Having a two-sided relationship where a note “Belongs To” a user and a user “Has-Many” notes can easily be achieved in just one method using self in one method. 
+Having a two-sided relationship where a note “Belongs To” a user and a user “Has-Many” notes can easily be achieved through self in a single method. 
 
 ```ruby
 Class user
-  #most class ommited...
+  #most of class ommited...
   def add_note(note)
     self.notes << note
     note.user = self
