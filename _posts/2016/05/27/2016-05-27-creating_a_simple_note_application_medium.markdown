@@ -41,9 +41,7 @@ class Note
   end
 end
 ```
-
-Having a two sided relationship where a note "Belongs To" a user and a user "Has Many" notes can easily be achieved in just one method using `self` in one method.
-
+Having a two-sided relationship where a note “Belongs To” a user and a user “Has-Many” notes can easily be achieved in just one method using self in one method.
 
 ```
 Class user
