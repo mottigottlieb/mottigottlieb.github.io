@@ -11,9 +11,11 @@ Understanding Object-Relational Mapping
 Take for example having a standard address book sorted in alphabetical order, it has come to your attention that Mr. John Adams has moved and you no longer need his record in your book.
 
 Removing Mr. Adams from your book would require you to:
-Navigate to "A" index page.
-Scan through many records down to the one matching “John Adams”
-Cross out the record
+
+1. Navigate to "A" index page.
+2. Scan through many records down to the one matching “John Adams”.
+3. Cross out the record 
+
 After all, you are left with a page holding many records along some ugly patches.
 
 
