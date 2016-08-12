@@ -5,6 +5,9 @@ date:   2016-05-29 15:46:55 -0400
 ---
 
 
+
+(Note post construction 
+
 Understanding Object-Relational Mapping
 
 
