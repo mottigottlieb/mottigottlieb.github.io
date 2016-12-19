@@ -26,14 +26,14 @@ You can use the following flags:
 **Controller Generator Flags
 **
 
-Running rails generate controller Name will create views and assets folders, along with helper and test files.
+Running `rails generate controller Name` will create views and assets folders, along with helper and test files.
 
-           app/controllers/controller_controller.rb
-           app/views/controller
-           test/controllers/controller_controller_test.rb
-           app/helpers/controller_helper.rb
-           app/assets/javascripts/controller.coffee
-           app/assets/styleesheets/controller.scss
+           app/controllers/name_controller.rb
+           app/views/name
+           test/controllers/name_controller_test.rb
+           app/helpers/name_helper.rb
+           app/assets/javascripts/name.coffee
+           app/assets/styleesheets/name.scss
 
 You can use the following flags:
 
