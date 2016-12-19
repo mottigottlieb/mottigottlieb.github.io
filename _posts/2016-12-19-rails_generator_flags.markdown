@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rails Generator Flags"
-date:   2016-12-19 02:58:59 +0000
+date:   2016-12-18 21:58:59 -0500
 ---
 
 
