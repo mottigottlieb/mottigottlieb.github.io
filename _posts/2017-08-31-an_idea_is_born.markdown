@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "An Idea is born"
-date:   2017-08-31 17:54:06 -0400
+title:      "An Idea is born"
+date:       2017-08-31 17:54:06 -0400
+permalink:  an_idea_is_born
 ---
 
 While writing my next day's routine on an index card I thought to myself Why don't I just type it up?
